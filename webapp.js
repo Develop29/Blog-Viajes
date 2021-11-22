@@ -88,7 +88,6 @@ aplicacion.post('/procesar_registro', function (peticion, respuesta) {
   })
 })
 
-// Conexion server
 aplicacion.listen(8080, function(){
   console.log("Servidor iniciado")
 })
